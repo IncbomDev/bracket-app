@@ -175,3 +175,26 @@
   padding: 0;
   height: 100%
 }
+
+.settings-control {
+  background-color: transparent;
+  transition: background 0.15s ease-in-out;
+}
+.settings-control:hover,
+.settings-control:active {
+  background-color: #464646;
+}
+.settings-control:before {
+  display: block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  mask: url('../icons/settings.svg') center center no-repeat;
+  -webkit-mask: url('../icons/settings.svg') center center no-repeat;
+  background-color: #a8a8a8;
+  transition: inherit;
+}
+.settings-control:hover:before,
+.settings-control:active:before {
+  background-color: #dedede;
+}

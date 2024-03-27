@@ -93,3 +93,8 @@ a {
   display: inline-block;
   margin-right: 10px;
 }
+
+.settings-button {
+  background: transparent;
+  border: none;
+}

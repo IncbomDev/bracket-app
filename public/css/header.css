@@ -165,3 +165,8 @@
 .socialIcons a {
   text-decoration: none;
 }
+
+.settings-button {
+  background: transparent;
+  border: none;
+}
